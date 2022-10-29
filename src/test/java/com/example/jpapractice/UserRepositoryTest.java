@@ -19,11 +19,6 @@ public class UserRepositoryTest {
     @Autowired
     private UserRepository userRepository;
 
-//    @Autowired
-//    public UserRepositoryTest(UserRepository userRepository) {
-//        this.userRepository = userRepository;
-//    }
-
     @BeforeEach
     void setUp() {
         User user = new User("D","role","d@role.com");
